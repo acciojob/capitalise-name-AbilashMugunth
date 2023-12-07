@@ -1,4 +1,4 @@
 const input = document.querySelector("#fname");
 input.addEventListener("blur", () => {
-  alert(input.value.toUpperCase());
+  input.value = input.value.toUpperCase();
 });
