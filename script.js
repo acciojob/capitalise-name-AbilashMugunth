@@ -1,1 +1,4 @@
-//your JS code here. If required.
+const input = document.querySelector("#fname");
+input.addEventListener("blur", () => {
+  alert(input.value.toUpperCase());
+});
